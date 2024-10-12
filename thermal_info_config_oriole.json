@@ -797,38 +797,6 @@
             "Hidden":true
         },
         {
-            "Name":"soft_ocp_cpu2",
-            "Type":"BCL_CURRENT",
-            "HotThreshold":["NaN", "NaN", "NaN", "NaN", 9000, "NaN", "NaN"],
-            "HotHysteresis":[0.0, 0.0, 0.0, 0.0, 100, 0.0, 0.0],
-            "Multiplier":1,
-            "Hidden":true
-        },
-        {
-            "Name":"soft_ocp_cpu1",
-            "Type":"BCL_CURRENT",
-            "HotThreshold":["NaN", "NaN", "NaN", "NaN", 7000, "NaN", "NaN"],
-            "HotHysteresis":[0.0, 0.0, 0.0, 0.0, 100, 0.0, 0.0],
-            "Multiplier":1,
-            "Hidden":true
-        },
-        {
-            "Name":"soft_ocp_tpu",
-            "Type":"BCL_CURRENT",
-            "HotThreshold":["NaN", "NaN", "NaN", "NaN", 8500, "NaN", "NaN"],
-            "HotHysteresis":[0.0, 0.0, 0.0, 0.0, 100, 0.0, 0.0],
-            "Multiplier":1,
-            "Hidden":true
-        },
-        {
-            "Name":"soft_ocp_gpu",
-            "Type":"BCL_CURRENT",
-            "HotThreshold":["NaN", "NaN", "NaN", "NaN", 9000, "NaN", "NaN"],
-            "HotHysteresis":[0.0, 0.0, 0.0, 0.0, 100, 0.0, 0.0],
-            "Multiplier":1,
-            "Hidden":true
-        },
-        {
             "Name":"TPU",
             "Type":"NPU",
             "HotThreshold":[
